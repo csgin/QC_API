@@ -5,7 +5,7 @@ from Setting import settings
 
 class conn_handler():
     def __init__(self):
-        self.hpqc_server = "https://qc12-prod.int.net.nokia.com/qcbin/"
+        self.hpqc_server = "https://qc/qcbin/"
         self.username = settings.user_sett['username']
         self.password = settings.user_sett['password']
         urllib3.disable_warnings()
